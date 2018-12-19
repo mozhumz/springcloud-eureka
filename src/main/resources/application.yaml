@@ -1,0 +1,20 @@
+
+
+server: 
+ port: 1111
+ 
+eureka: 
+ instance: 
+  
+  hostname: localhost
+ client: 
+  register-with-eureka: false
+  fetch-registry: false
+  service-url: 
+   defaultZone: http://${hostname}:${server.port}/eureka/
+
+spring:
+  application:
+    name: eureka-server
+#  freemarker:
+#    prefer-file-system-access: false
