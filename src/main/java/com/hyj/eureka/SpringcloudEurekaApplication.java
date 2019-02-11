@@ -1,4 +1,4 @@
-package com.hyj.springcloud_eureka;
+package com.hyj.eureka;
 
 
 import org.springframework.boot.SpringApplication;
