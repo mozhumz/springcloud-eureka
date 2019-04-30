@@ -5,16 +5,15 @@ server:
  
 eureka: 
  instance: 
-  
   hostname: localhost
  client: 
   register-with-eureka: false
   fetch-registry: false
   service-url: 
-   defaultZone: http://${hostname}:${server.port}/eureka/
+   defaultZone: http://127.0.0.1:8888/eureka/
 
 spring:
   application:
-    name: eureka-server
+    name: eureka
 #  freemarker:
 #    prefer-file-system-access: false

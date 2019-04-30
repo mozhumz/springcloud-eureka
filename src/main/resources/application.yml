@@ -7,4 +7,4 @@ logging:
   config: classpath:logback-spring.xml
   level:
     root: ERROR
-    com.xdbigdata.subsidize_zjut: DEBUG
+    com.hyj.springcloud_eureka: info
