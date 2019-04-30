@@ -7,4 +7,4 @@ logging:
   config: classpath:logback-spring.xml
   level:
     root: ERROR
-    com.hyj.springcloud_eureka: info
+    com.hyj.eureka: info
