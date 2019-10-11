@@ -8,10 +8,13 @@ eureka:
   register-with-eureka: false
   fetch-registry: false
   service-url: 
-   defaultZone: http://${hostname}:${server.port}/eureka/
+   defaultZone: http://127.0.0.1:1111/eureka/
 
 spring:
   application:
     name: eureka-server
 #  freemarker:
 #    prefer-file-system-access: false
+
+test:
+  name: hyj
