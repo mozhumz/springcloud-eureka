@@ -8,5 +8,5 @@ spring:
 logging:
   config: classpath:logback-spring.xml
   level:
-    root: info
+    root: error
     com.hyj.eureka: info
